@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 onReceivedError(view, rerr.getErrorCode(), rerr.getDescription().toString(), req.getUrl().toString());
             }
         });
- 
-        webView.loadUrl("https://howdyho.net/");
+        // В ковычка вставляем ссылку сайта, которые будет отображаться в приложении.
+        webView.loadUrl("");
  
         setContentView(webView);
     }
